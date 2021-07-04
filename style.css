@@ -1,0 +1,72 @@
+body {
+    background-color: whitesmoke;
+    background-image: url("https://img.freepik.com/free-vector/seamless-white-interlaced-rounded-arc-patterned-background_53876-97975.jpg?size=626&ext=jpg");
+    background-repeat: repeat;
+}
+.wrapper {
+    position: relative;
+    transform: translateY(80%);
+
+
+    background-color: #FBFBFF;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+@media screen and (max-width: 420px) {
+    .wrapper {
+        width: 95%;
+    }
+    .counter {
+        font-size: 12px;
+    }
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.main #hour{
+    letter-spacing: 7px;
+}
+.main #sec{
+    letter-spacing: 7px;
+}
+.main #min{
+    letter-spacing: 7px;
+}
+.main #msec{
+    letter-spacing: 7px;
+}
+.timer {
+padding: 12px;    
+}
+.stop{
+    color: tomato;
+    width: 100px;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid tomato;
+    font-size: large;
+}
+.start{
+    color: green;
+    width: 100px;  
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid green;
+    font-size: large
+}
+.reset{
+    color: orange;
+    width: 100px;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid orange;
+    font-size: large
+}

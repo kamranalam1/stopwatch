@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+<div class="counter">
+    <div class="timer">
+        <h1 id="hour">00</h1>
+        <br> Hours <br><br>
+    </div>
+    <div class="timer">
+        <h1 id = "min">00</h1> <br>
+        Minute <br><br>
+    </div>
+    <div class="timer">
+        <h1 id = "sec">00</h1> <br>
+        Second <br><br>
+    </div>
+    <div class="timer">
+        <h1 id = "msec">00</h1> <br>
+        MiliSecond <br><br>
+    </div>    
+</div>
+<div style="padding:20px;display: flex;justify-content: center;">
+    <button class = "start" onclick="start(this)" >START </button><br>
+    <button class = "stop" onclick="stop()"> STOP</button>
+    <button class="reset" onclick="reset()"> RESET</button>
+</div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
